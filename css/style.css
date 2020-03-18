@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/***************************************/
+/*********Resuble codes*****************/
+/***************************************/
+h1,h2,h3{
+	color: #8b4513;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 25px;
+	padding: 5px;
+	font-weight: bolder;
+
+}
+.color_line{
+	border: 1px solid #8b4513;
+}
+
+button {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #8b4513;;
+	border: none;
+	border-radius: 5px;
+}
+
+.resetpassword{
+	float: right;
+	margin-right: 10px;
+
+
+
+}
+
+
+
+footer{
+	background-color: #8b4513;
+	color: white;
+	padding: 20px;
+	margin-top: 300px;
+
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #1f1f1f;
+	line-height:25px;
+	text-rendering: optimizeLegibility;
+
+}
+
+
+/***************************************/
+/*************Home_page*****************/
+/***************************************/
+
+
+nav{
+	background-color: #8b4513;
+
+
+}
+
+.nav img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	float: left;
+}
+.nav ul li{
+	list-style: none;
+	display: inline;
+	margin-right: 20px;
+	font-size: 16px;
+	letter-spacing: 1px;
+    word-spacing: 4px;
+
+}
+
+
+
+.nav li a{
+	color: white;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-decoration: none;
+
+
+}
+ a:hover{
+	text-decoration: none;
+
+
+
+}
+div .wcome{
+	font-size: 25px;
+	text-align: center;
+	margin: 30px;
+
+}
+.sname{
+	color: #8b4513;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+.blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 140%;
+    position: relative;
+    margin-top: 40px;
+	font-family: serif;
+	font-size: 25px;
+}
+
+/*
+.blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+*/
+
+
+
+/***************************************/
+/************payment_page*****************/
+/***************************************/

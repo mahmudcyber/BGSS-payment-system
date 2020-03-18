@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/***************************************/
+/*********Resuble codes*****************/
+/***************************************/
+h1,h2,h3{
+	color: #8b4513;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 25px;
+	padding: 5px;
+	font-weight: bolder;
+}
+h4{
+	color: #8b4513;
+	font-weight: bolder;
+
+}
+@media only screen and (max-width:768px){
+	h1,h2,h3{
+		font-size: 12px;
+		font-weight: bolder;
+	}
+}
+.color_line{
+	border: 1px solid #8b4513;
+}
+
+
+button{
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #8b4513;
+	border: none;
+	border-radius: 5px;
+}
+
+footer{
+	background-color: #8b4513;
+	color: white;
+	padding: 20px;
+	margin-top: 300px;
+
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #1f1f1f;
+	line-height:25px;
+	text-rendering: optimizeLegibility;
+
+}
+
+
+/***************************************/
+/*************Home_page*****************/
+/***************************************/
+
+
+
+
+
+nav{
+	background-color: #8b4513;
+
+
+}
+
+.nav img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	float: left;
+}
+ ul li{
+	list-style: none;
+	display: inline;
+	margin-right: 20px;
+	padding: 10px;
+	font-size: 18px;
+	letter-spacing: 1px;
+    word-spacing: 4px;
+    margin-top: 10px;
+
+
+}
+
+
+
+ li a{
+	color: #8b4513;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-decoration: none;
+
+
+}
+ li a:hover{
+	 background-color: #8b4513;
+		color: white;
+	 text-decoration: none;
+}
+
+
+.sname{
+	color: #8b4513;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+table{
+	font-size: 14px;
+}
+
+
+
+/***************************************/
+/************Login_page*****************/
+/***************************************/
+/*
+.student_login, .payment_details{
+	margin: 50px auto;
+	width: 50%;
+	padding: 20px;
+	box-shadow: 10px 10px 10px rgb(139, 69, 19, 0.7);
+	border-radius: 20px;
+	border: 1px solid #8b4513;
+}
+
+
+
+
+
+
+
+
+
+/***************************************/
+/************payment_page*****************/
+/***************************************/
